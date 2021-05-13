@@ -1,0 +1,26 @@
+INFO  | 2020-12-04 09:54:17 | [main] presentation.ShoppingAppControllerTest (ShoppingAppControllerTest.java:33) - [START] testItemSearchFailed()
+INFO  | 2020-12-04 09:54:17 | [main] presentation.ShoppingAppController (ShoppingAppController.java:17) - Finding item for id: -2
+INFO  | 2020-12-04 09:54:17 | [main] dao.ItemDAOImpl (ItemDAOImpl.java:25) - Database returned ItemEntity: null
+INFO  | 2020-12-04 09:54:17 | [main] presentation.ShoppingAppControllerTest (ShoppingAppControllerTest.java:26) - [START] testItemSearchSuccess()
+INFO  | 2020-12-04 09:54:17 | [main] presentation.ShoppingAppController (ShoppingAppController.java:17) - Finding item for id: 1
+INFO  | 2020-12-04 09:54:17 | [main] dao.ItemDAOImpl (ItemDAOImpl.java:25) - Database returned ItemEntity: Item [id=1, name=Laptop, price=55000.0]
+INFO  | 2020-12-04 09:54:17 | [main] service.ItemServiceImpl (ItemServiceImpl.java:21) - ItemEntity: Item [id=1, name=Laptop, price=55000.0]
+INFO  | 2020-12-04 09:54:17 | [main] presentation.ShoppingAppControllerTest (ShoppingAppControllerTest.java:28) - [END] testItemSearchSuccess()
+INFO  | 2020-12-04 12:45:11 | [main] presentation.ShoppingAppControllerTest (ShoppingAppControllerTest.java:33) - [START] testItemSearchFailed()
+INFO  | 2020-12-04 12:45:11 | [main] presentation.ShoppingAppController (ShoppingAppController.java:17) - Finding item for id: -2
+INFO  | 2020-12-04 12:45:12 | [main] dao.ItemDAOImpl (ItemDAOImpl.java:25) - Database returned ItemEntity: null
+ERROR | 2020-12-04 12:45:12 | [main] presentation.ShoppingAppController (ShoppingAppController.java:23) - ItemNotFoundException: Item not found ItemId: -2
+INFO  | 2020-12-04 12:45:12 | [main] presentation.ShoppingAppControllerTest (ShoppingAppControllerTest.java:26) - [START] testItemSearchSuccess()
+INFO  | 2020-12-04 12:45:12 | [main] presentation.ShoppingAppController (ShoppingAppController.java:17) - Finding item for id: 1
+INFO  | 2020-12-04 12:45:12 | [main] dao.ItemDAOImpl (ItemDAOImpl.java:25) - Database returned ItemEntity: Item [id=1, name=Laptop, price=55000.0]
+INFO  | 2020-12-04 12:45:12 | [main] service.ItemServiceImpl (ItemServiceImpl.java:21) - ItemEntity: Item [id=1, name=Laptop, price=55000.0]
+INFO  | 2020-12-04 12:45:12 | [main] presentation.ShoppingAppControllerTest (ShoppingAppControllerTest.java:28) - [END] testItemSearchSuccess()
+INFO  | 2020-12-04 12:52:12 | [main] presentation.ShoppingAppControllerTest (ShoppingAppControllerTest.java:33) - [START] testItemSearchFailed()
+INFO  | 2020-12-04 12:52:12 | [main] presentation.ShoppingAppController (ShoppingAppController.java:17) - Finding item for id: -2
+INFO  | 2020-12-04 12:52:12 | [main] dao.ItemDAOImpl (ItemDAOImpl.java:25) - Database returned ItemEntity: null
+ERROR | 2020-12-04 12:52:12 | [main] presentation.ShoppingAppController (ShoppingAppController.java:23) - ItemNotFoundException: Item not found ItemId: -2
+INFO  | 2020-12-04 12:52:12 | [main] presentation.ShoppingAppControllerTest (ShoppingAppControllerTest.java:26) - [START] testItemSearchSuccess()
+INFO  | 2020-12-04 12:52:12 | [main] presentation.ShoppingAppController (ShoppingAppController.java:17) - Finding item for id: 1
+INFO  | 2020-12-04 12:52:12 | [main] dao.ItemDAOImpl (ItemDAOImpl.java:25) - Database returned ItemEntity: Item [id=1, name=Laptop, price=55000.0]
+INFO  | 2020-12-04 12:52:12 | [main] service.ItemServiceImpl (ItemServiceImpl.java:21) - ItemEntity: Item [id=1, name=Laptop, price=55000.0]
+INFO  | 2020-12-04 12:52:12 | [main] presentation.ShoppingAppControllerTest (ShoppingAppControllerTest.java:28) - [END] testItemSearchSuccess()

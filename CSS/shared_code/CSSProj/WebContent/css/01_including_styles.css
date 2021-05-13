@@ -1,0 +1,34 @@
+p{
+color:gray;
+background-color: orange;
+}
+input {
+background-color: pink;
+}
+
+/*Attribute selector*/
+input[type="text"] {
+background-color: cyan;
+}
+
+
+/*class selector*/
+.healthAppButton {
+background-color: red;
+}
+
+/*id selector*/
+#p1{
+color:blue;
+background-color: pink;
+}
+
+/*element selector*/
+div{
+color:red;
+background-color: green;
+}
+
+a:hover{
+	color: red;
+}

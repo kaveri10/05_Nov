@@ -1,0 +1,49 @@
+/** Element type selector */
+p{
+	color: blue;
+	font-size: 48px;
+}
+
+/**Attribute selector*/
+input[type="text"] {
+	background-color: pink;
+}
+input[type="submit"] {
+	border: 15;
+}
+/** Class selector */
+.container {
+	background-color: orange;
+	font-size: 32px;
+}
+.myspan {
+	border: 3px solid red;
+	margin: 100px 150px;
+}
+/**Universal selector*/
+* {
+	background-color: cyan;
+}
+
+/** ID selector */
+#p3 {
+	background-color: red;
+	margin: 3em;
+}
+#p2 {
+	border: 3px solid red;
+	border-radius: 15px;
+	visibility: hidden;
+	display: none;
+}
+div {
+	margin: 2em;
+}
+/**Multiple selector */
+p.mycustom{
+	font-size: 12px;
+}
+
+
+
+
